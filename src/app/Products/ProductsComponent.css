@@ -1,0 +1,18 @@
+.outerdiv {
+    display: flex;
+}
+
+.innerdiv {
+    padding: 0 10% 0 10%;
+    width: 80%;
+    margin: auto;
+    background: #ffffff;
+}
+
+.graybox {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    background: #f0f0f0;
+    margin-left: auto;
+}

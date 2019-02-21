@@ -1,0 +1,50 @@
+{
+  "name": "hello_react_app",
+  "version": "1.0.0",
+  "description": "Simple React Application",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --hot --env dev",
+    "build": "webpack --env prod"
+  },
+  "author": "Manish Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "3.3.1",
+    "prop-types": "15.6.2",
+    "react": "16.6.3",
+    "react-bootstrap": "0.32.4",
+    "react-dom": "16.6.3",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-select": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0",
+    "autoprefixer": "9.3.1",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "clean-webpack-plugin": "1.0.0",
+    "css-loader": "1.0.1",
+    "file-loader": "2.0.0",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.4.5",
+    "node-sass": "4.10.0",
+    "optimize-css-assets-webpack-plugin": "5.0.1",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "terser-webpack-plugin": "1.1.0",
+    "url-loader": "1.1.2",
+    "webpack": "4.26.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10",
+    "webpack-merge": "4.1.4"
+  }
+}
