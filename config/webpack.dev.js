@@ -86,7 +86,7 @@ module.exports = webpackMerge(commonConfig, {
             chunkFilename: 'static/css/[name].[contenthash:8].chunk.css'
         }),
         new webpack.DefinePlugin({
-            "BASE_URL": JSON.stringify("https://CAVD650197:8084")
+            "BASE_URL": JSON.stringify("https://aw-lx0423:19601")
         })
     ]
 });

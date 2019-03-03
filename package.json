@@ -10,7 +10,9 @@
   "author": "Manish Sharma",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "3.3.7",
+    "fs": "0.0.1-security",
     "jquery": "3.3.1",
     "prop-types": "15.6.2",
     "react": "16.6.3",
