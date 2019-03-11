@@ -28,7 +28,7 @@ class LoginComponent extends Component {
 
     getStates() {
         authenticator().then((response) => {
-            console.log("Response ", response);
+            // console.log("Response ", response);
             this.setState({
                 states: response
             });
