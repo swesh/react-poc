@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import SwitchComponent from '../routes';
 
 const HeaderComponent = () => (
     <div>
-        <nav className="navbar navbar-inverse">
+        {/* <nav className="navbar navbar-inverse">
             <ul className="nav navbar-nav">
                 <li>
                     <Link to="/">Home</Link>
@@ -13,7 +13,7 @@ const HeaderComponent = () => (
                     <Link to="/login">Login</Link>
                 </li>
             </ul>
-        </nav>
+        </nav> */}
         {SwitchComponent}
     </div>
 );
