@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Loadable from 'react-loadable';
 
-import HomeComponent from './Home/HomeComponent';
+// import HomeComponent from './Home/HomeComponent';
 
 
 const LoginComponent = Loadable({
@@ -12,8 +12,8 @@ const LoginComponent = Loadable({
 
 export default (
     <Switch>
-        <Route exact path="/" component={HomeComponent} />
-        <Route path="/login" component={LoginComponent} />
+        <Route exact path="/" component={LoginComponent} />
+        {/* <Route path="/login" component={LoginComponent} /> */}
         <Route path="**" render={() => (
             <article>
                 <h1 className="text-danger">Component Not Found...</h1>
