@@ -14,7 +14,6 @@ class LoginComponent extends Component {
             stateOption: null
         };
         this.getStates();
-        this.handleChange = this.handleChange.bind(this);
     }
 
     getStates() {
