@@ -67,15 +67,16 @@ module.exports = webpackMerge(commonConfig, {
     },
 
     output: {
-        publicPath: 'http://localhost:3000/',
-        filename: '[name].js',
-        chunkFilename: '[id].chunk.js'
+        publicPath: '/',
+        filename: 'bundle.js',
+        path: __dirname+'/dist'
     },
 
     devServer: {
         inline: true,
+        contentBase: './dist',
+        host: 'ddlocal.deltadev.ent',
         port: 3000,
-        historyApiFallback: true,
         clientLogLevel: 'none',
         stats: 'minimal',
         open: 'Chrome'
